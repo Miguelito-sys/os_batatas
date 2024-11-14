@@ -1,41 +1,172 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
-    <meta charset="utf-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <title>Prova Final</title> 
-</head> 
-<body> 
-    <h1>Eventos</h1> 
-    <header id="pizza" class="header"> 
-        <nav> 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prova Final</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        .header nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        .header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .section {
+            padding: 2rem;
+        }
+        .section h2 {
+            color: #333;
+        }
+        .section ul {
+            list-style: disc;
+            margin-left: 1.5rem;
+        }
+        .section h3 {
+            margin-top: 1.5rem;
+        }
+        .menu {
+            margin-top: 1rem;
+            padding: 1rem;
+            background-color: #e2e2e2;
+            border-radius: 8px;
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        .menu ul li {
+            margin-bottom: 0.5rem;
+        }
+        .menu ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Eventos</h1>
+        <nav>
             <ul>
-                <li><a href="#show">Shows</a></li>
-                <li><a href="">Festas</a></li>
-                <li><a href="">Casamentos</a></li>
-                <li><a href="">Aniversários</a></li>
-                <li><a href="">Viagens</a></li>
+                <li><a href="#shows">Shows</a></li>
+                <li><a href="#festas">Festas</a></li>
+                <li><a href="#casamentos">Casamentos</a></li>
+                <li><a href="#aniversarios">Aniversários</a></li>
+                <li><a href="#viagens">Viagens</a></li>
             </ul>
-        </nav> 
-    </header> 
-    <section id="show" class="section">
+        </nav>
+    </header>
+    <section id="shows" class="section">
         <h2>Shows</h2>
-        <p>Oferecemos uma variedade de shows para todos os gostos e ocasiões. Desde apresentações musicais intimistas até grandes espetáculos ao vivo, nossos shows são personalizados para atender às preferências do público e ao estilo do evento. O tempo de duração de cada show varia de acordo com o tipo de performance, podendo ser ajustado para se adequar às necessidades do cliente. Se você está planejando um evento e deseja encantar seus convidados com uma experiência musical única, estamos aqui para ajudar a criar o momento perfeito!</p>
-        
-        <h3>Tipos de Shows</h3>
-        <p>Temos uma vasta gama de opções para você escolher, incluindo:</p>
-        <ul>
-            <li><strong>Shows Acústicos:</strong> Apresentações intimistas, ideais para eventos mais tranquilos e ambientes descontraídos. Perfeito para casamentos ou jantares elegantes.</li>
-            <li><strong>Bandas e Grupos ao Vivo:</strong> Com uma energia contagiante, esses shows são ideais para festas e grandes eventos, trazendo um toque especial com bandas de diferentes estilos musicais.</li>
-            <li><strong>DJ e Música Eletrônica:</strong> Para festas animadas e eventos modernos, nossos DJs criam sets incríveis com músicas eletrônicas, house, pop e outros gêneros populares.</li>
-            <li><strong>Teatro e Performances Artísticas:</strong> Apresentações teatrais ou performances artísticas ao vivo, ideais para eventos culturais ou corporativos que buscam um toque sofisticado e criativo.</li>
-            <li><strong>Shows de Comédia:</strong> Se você deseja garantir boas risadas, nossos shows de stand-up comedy e comediantes famosos são uma excelente escolha para eventos descontraídos e cheios de humor.</li>
-            <li><strong>Concertos de Orquestra e Música Clássica:</strong> Para eventos mais elegantes ou cerimoniais, oferecemos concertos de música clássica com orquestras renomadas, criando uma atmosfera sofisticada e memorável.</li>
-            <li><strong>Shows Temáticos:</strong> Personalize o show de acordo com o tema do seu evento, seja um tributo a bandas famosas, um show de músicas de filmes, ou performances relacionadas ao tema da festa.</li>
-        </ul>
-        
+        <p>Oferecemos shows para todos os gostos e ocasiões, desde apresentações intimistas até grandes espetáculos. Personalizamos a duração conforme suas necessidades. Encante seus convidados com uma experiência musical única!</p>
+
+        <h3>Shows Acústicos</h3>
+        <p>Apresentações intimistas, ideais para eventos tranquilos e elegantes.</p>
+        <div class="menu">
+            <h4>Menu de Opções</h4>
+            <ul>
+                <li><a href="#">Exemplo de Artista</a></li>
+                <li><a href="#">Duração Média</a></li>
+                <li><a href="#">Equipamentos Necessários</a></li>
+                <li><a href="#">Preço Médio</a></li>
+            </ul>
+        </div>
+
+        <h3>Bandas e Grupos ao Vivo</h3>
+        <p>Energia contagiante para festas e grandes eventos.</p>
+        <div class="menu">
+            <h4>Menu de Opções</h4>
+            <ul>
+                <li><a href="#">Exemplo de Banda</a></li>
+                <li><a href="#">Duração Média</a></li>
+                <li><a href="#">Equipamentos Necessários</a></li>
+                <li><a href="#">Preço Médio</a></li>
+            </ul>
+        </div>
+
+        <h3>DJ e Música Eletrônica</h3>
+        <p>Animação garantida para festas modernas.</p>
+        <div class="menu">
+            <h4>Menu de Opções</h4>
+            <ul>
+                <li><a href="#">Exemplo de DJ</a></li>
+                <li><a href="#">Duração Média</a></li>
+                <li><a href="#">Equipamentos Necessários</a></li>
+                <li><a href="#">Preço Médio</a></li>
+            </ul>
+        </div>
+
+        <h3>Teatro e Performances Artísticas</h3>
+        <p>Sofisticação para eventos culturais e corporativos.</p>
+        <div class="menu">
+            <h4>Menu de Opções</h4>
+            <ul>
+                <li><a href="#">Exemplo de Peça</a></li>
+                <li><a href="#">Duração Média</a></li>
+                <li><a href="#">Equipamentos Necessários</a></li>
+                <li><a href="#">Preço Médio</a></li>
+            </ul>
+        </div>
+
+        <h3>Shows de Comédia</h3>
+        <p>Riso garantido com stand-up comedy.</p>
+        <div class="menu">
+            <h4>Menu de Opções</h4>
+            <ul>
+                <li><a href="#">Exemplo de Comediante</a></li>
+                <li><a href="#">Duração Média</a></li>
+                <li><a href="#">Equipamentos Necessários</a></li>
+                <li><a href="#">Preço Médio</a></li>
+            </ul>
+        </div>
+
+        <h3>Concertos de Orquestra e Música Clássica</h3>
+        <p>Elegância para eventos cerimoniais.</p>
+        <div class="menu">
+            <h4>Menu de Opções</h4>
+            <ul>
+                <li><a href="#">Exemplo de Orquestra</a></li>
+                <li><a href="#">Duração Média</a></li>
+                <li><a href="#">Equipamentos Necessários</a></li>
+                <li><a href="#">Preço Médio</a></li>
+            </ul>
+        </div>
+
+        <h3>Shows Temáticos</h3>
+        <p>Personalize de acordo com o tema do evento.</p>
+        <div class="menu">
+            <h4>Menu de Opções</h4>
+            <ul>
+                <li><a href="#">Exemplo de Show Temático</a></li>
+                <li><a href="#">Duração Média</a></li>
+                <li><a href="#">Equipamentos Necessários</a></li>
+                <li><a href="#">Preço Médio</a></li>
+            </ul>
+        </div>
+
         <h3>Variedades e Personalização</h3>
-        <p>Cada show pode ser totalmente personalizado para se adequar ao seu evento. Quer algo mais intimista ou uma grande performance? Precisa de um show para uma cerimônia formal ou uma festa animada? Nossa equipe está pronta para ajudar a escolher o show perfeito, ajustando o estilo, a duração e a performance conforme suas preferências.</p>
+        <p>Cada show pode ser ajustado para se adequar ao seu evento, seja intimista ou uma grande performance. Nossa equipe está pronta para ajudar a escolher o show perfeito.</p>
     </section>
-</body> 
+</body>
 </html>
