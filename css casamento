@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, beige);
+}
+.img{
+    display: inline;
+    width: 200PX;
+    height: 200PX;
+    border: none;
+    border-radius: 15%;
+    object-fit: cover;
+    background: linear-gradient(to bottom, beige);
+    font-size:30px ;
+
+}
+section{
+    border: none;
+    border-radius: 10%;bl
+    background: linear-gradient(to bottom, beige);
+    text-align: center;
+    box: shadow: 10px;
+    padding: 15px;
+    font-size:30px ;
+}
+section button{
+    width: 5cm;
+    height: 50px;
+    background:  linear-gradient(to bottom, beige);
+    border: ridge color(srgb-linear beige);
+    border-radius: 50px;
+    font-size:20px ;
+}
+section ul li{
+    list-style: none;
+    display: flex;
+    font-size:20px ;
+}
+h1{
+    text-align: center;
+    border: none;
+    border-radius: 10%;
+    background:  linear-gradient(to bottom, beige);
+    font-size:30px ;
+}
+header h1{
+    text-align: center;
+    font-size:20px ;
+}
