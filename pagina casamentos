@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Casamentos</title>
+</head>
+<body >
+  <header>
+  <h1>
+    casamentos
+    <img src="" id="">
+  </h1>
+  </header>
+  <section>
+    <form>
+      <a href=""></a><a href=""></a><a href=""></a>
+      <a href=""></a><a href=""></a><a href=""></a>
+      <a href=""></a><a href=""></a><a href=""></a>
+    </form>
+  </section>
+  <section>
+    <h3>Imagens do casamento</h3>
+    <img src="https://cdn0.casamentos.com.br/article-vendor/8379/3_2/960/jpg/mari-leo-previas-49_13_178379-166013221645741.webp" id="">
+    <img src="https://www.psicologo.com.br/wp-content/uploads/casamento-feliz-um-guia-para-casamentos-felizes-768x434.jpg" id="">
+    <img src="https://2448.cdn.simplo7.net/static/2448/sku/trabalhadas-alianca-de-noivado-e-casamento-com-3-gramas-a-unidade-rendeira-mod0063-p-1704477255866.jpeg" id="">
+    <img src="https://www.dicasdemulher.com/wp-content/uploads/2018/11/casamento-no-campo-0.jpg" id="">
+    <img src="https://s2.glbimg.com/nzzx3d78XbmuflIS06UEUcTcFxA=/smart/e.glbimg.com/og/ed/f/original/2020/04/02/tendencias-casamento5.jpg" id="">
+    <img src="https://cdn.borainvestir.b3.com.br/2024/05/14124658/quanto-custa-festa-casamento-como-planejar.webp" id="">
+  </section>
+  <section>
+    <h3>Casamento Tradicional</h3>
+    <ul>
+      <li>
+        Decoração: <br> Reflete ao gosto dos noivos, podendo ser clássica, rústica, moderno, etc <br>
+        Uso de flores, velas, iluminação especial e objetos temáticos.
+      </li>
+      <li>
+        Música: cerimônia: músicas ao vivo (cordas, violão e voz, etc). <br>
+        Festa: <br> DJs ou bandas para agitar os convidados.
+      </li>
+      <li>
+        Duração: <br> Normalmente de 6 a 8 horas,incluindo cerimônias e festas.
+      </li>
+      <li>
+        Praço Médio: <br> Varia entre R$ 40 mil e R$ 100 mil, mas depende do porte do evento.
+      </li>
+      <li>
+        Buffet: <br>
+        Variedade de cardápios que podem incuir coquetel, jantar formal ou opçoes finger food <br>
+        Bebidas podem ir de coquetéis personalizados a vinho, cerveja e open bar
+        Cardápio geralmente é ajustado aos temas e ás preferências dos noivos, com alternativas para restrições alimentares.
+      </li>
+    </ul>
+  </section>
+  <section>
+    <button>adicionar ao carrinho</button>
+  </section>
+</body>
+</html>
