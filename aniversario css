@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, orange, green, yellow);
+}
+.img{
+    display: inline;
+    width: 200PX;
+    height: 200PX;
+    border: none;
+    border-radius: 15%;
+    object-fit: cover;
+    background: linear-gradient(to bottom, orange, green, yellow);
+
+}
+section{
+    border: none;
+    border-radius: 10%;
+    background: linear-gradient(to bottom, orange, green, yellow);
+    text-align: center;
+    box: shadow: 10px;
+}
+section button{
+    width: 4cm;
+    height: 30px;
+    background:  linear-gradient(to bottom, orange, green, yellow);
+    border: ridge color(srgb-linear  orange, green, yellow);
+    border-radius: 10px;
+}
+section ul li{
+    list-style: none;
+    display: flex;
+}
+h1{
+    text-align: center;
+    border: none;
+    border-radius: 10%;
+    background: linear-gradient(to bottom, orange, green, yellow);
+}
+header h1{
+    text-align: center;
+}
