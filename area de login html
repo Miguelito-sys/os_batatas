@@ -1,8 +1,10 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>login prova final</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="login.js"></script>
 </head>
 <body>
 	<div class="main">  	
@@ -11,11 +13,12 @@
 			<div class="signup">
 				<form action="p.html">
 					<label for="chk" aria-hidden="true">Inscrever-se</label>
-					<input type="text" name="txt" placeholder="nome de usuario" required="">
-					<input type="email" name="email" placeholder="Email" required="">
-          <input type="number" name="broj" placeholder="numero de Telefone" required="">
-					<input type="password" name="pswd" placeholder="senha" required="">
-					<button>Inscrever-se</button action="p.html">
+					<input id="name" type="text" name="txt" placeholder="nome de usuario" required="">
+					<input id="email" type="email" name="email" placeholder="Email" required="">
+          <input type="number" id="numero" name="broj" placeholder="numero de Telefone" required="">
+					<input type="password" id="senha" name="pswd" placeholder="senha" required="">
+					<button onclick="eventoclick() "onclick="ck()">Inscrever-se</button>
+					<p id="pi"></p>
 				</form>
 			</div>
 
@@ -24,7 +27,7 @@
 					<label for="chk" aria-hidden="true">Logar</label>
 					<input type="email" name="email" placeholder="Email" required="">
 					<input type="password" name="pswd" placeholder="senha" required="">
-					<button>Logar</button action="p.html">
+					<button onclick="eventoclicar()">Logar</button>
 				</form>
 			</div>
 	</div>
