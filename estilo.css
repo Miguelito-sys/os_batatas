@@ -1,0 +1,106 @@
+    body{
+        background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+        color: white;
+    }
+    .header {
+        text-decoration: none;
+        text-align: center;
+        list-style: none;
+        color: white;
+        padding: auto;
+        margin: auto;
+        width: 34cm;
+        height: 80px;
+        background: blueviolet;
+        transition-property: height;
+        transition-duration: 2s;
+        cursor: pointer;
+
+
+}
+.header:hover {
+  height: 110px;
+
+}
+.header nav ul {
+    list-style: none;
+    text-decoration: none; 
+    display: inline-flex;
+    
+}
+.header nav ul li {
+   justify-content: center;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    inline-size: 3cm;
+}
+.header nav ul a {
+    text-decoration: none; 
+    color:  #0f0c29;
+}
+.section{
+  padding: 2cm;
+}
+.section h2 h3 h4{
+    color: white;
+    margin-top: 1.5rem;
+    font-family:Courier New;
+}
+.section ul li {
+   list-style: none;
+   color: white;
+   margin-left: 1.5rem;
+}
+.section a{
+    color: white;
+    text-decoration: none;
+}
+.menu {
+     margin-top: 1rem;
+     padding: 1rem;
+     background-color: #302b63;
+     border-radius: 8px;
+        }
+ .menu ul {
+       list-style: none;
+       padding: 0;
+        }
+ .menu ul li {
+     margin-bottom: 0.5rem;
+        }
+.menu ul li a {
+     color: white;
+    text-decoration: none;
+}
+.footer{
+    background-color: #0f0c29;
+    text-decoration: none;
+    text-align: left;
+    list-style: none;
+    color: white;
+    padding: auto;
+    margin: auto;
+    width: auto;
+    height:3cm ;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.footer img{
+    width: 20PX;
+    height: 20PX;
+    align-items: end;
+    padding-left: 145px;
+    position: absolute;
+    top: 5100px;
+    z-index: 1;
+}
+.footer button{
+    background-color: #0f0c29;
+    text-decoration: none;
+    border: none;
+    text-decoration-color: white;
+    color: white;
+    display: flex;
+}
