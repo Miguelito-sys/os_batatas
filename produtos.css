@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(to bottom, aliceblue, aqua, skyblue);
+}
+.produto{
+    background-image: ;
+    box-shadow: 4px 4px 6px black;
+    border: ridge;
+    border-radius: 10px;
+    width: 5cm;
+    height: 10cm;
+    word-spacing: 5%;
+}
+ul li {
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    color: black;
+    padding: auto;
+    margin: auto;
+    width: 34cm;
+    height: 80px;
+    background: aliceblue;
+    display: inline;
+    word-spacing: 2cm;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    color: black;
+    padding: auto;
+    margin: auto;
+    width: 34cm;
+    height: 80px;
+    background: aliceblue;
+    transition-property: height;
+    transition-duration: 2s;
+    cursor: pointer;
+    word-spacing: 2cm;
+
+}
