@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="produto.css"
+    <title>area de Compra</title>
+</head>
+<body>
+    <header>
+        <h1>Loja Online Avançada</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#carrinho">Carrinho</a></li>
+                <li><a href="#pagamento">Pagamento</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="produtos">
+        <h2>Produtos Disponíveis</h2>
+        <div class="produto" data-id="">
+            <h3>viagem 1</h3>
+            <p>essa viagen é legal</p>
+            <p>Preço: R$ 100,00</p>
+            <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto" data-id="3">
+            <h3>viagen 2</h3>
+            <p>uma cidade linda</p>
+            <p>Preço: R$ 100,00</p>
+            <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto" data-id="4">
+            <h3>cantor 1</h3>
+            <p>um dos cantores mais famosos que tem</p>
+            <p>Preço: R$ 100,00</p>
+            <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto" data-id="5">
+            <h3>cantor 2</h3>
+            <p>um cantor grigo muito famoso</p>
+            <p>Preço: R$ 100,00</p>
+            <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto" data-id="7">
+            <h3>aniversario 1</h3>
+            <p>Descrição detalhada do Produto 1</p>
+            <p>Preço: R$ 100,00</p>
+            <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto" data-id="8">
+            <h3>aniversario 2</h3>
+            <p>Descrição detalhada do Produto 1</p>
+            <p>Preço: R$ 100,00</p>
+            <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto" data-id="9">
+            <h3>casamento 1</h3>
+            <p>Descrição detalhada do Produto 1</p>
+            <p>Preço: R$ 100,00</p>
+            <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto" data-id="10">
+            <h3>casamento 2</h3>
+            <p>Descrição detalhada do Produto 1</p>
+            <p>Preço: R$ 100,00</p>
+            <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+        </div>
+    </section>
+    <section id="carrinho">
+        <h2>Seu Carrinho</h2>
+        <div id="listaCarrinho"></div>
+        <p id="totalCarrinho"></p>
+        <button id="finalizarCompra" disabled>Finalizar Compra</button>
+    </section>
+    <section id="pagamento">
+        <h2>Pagamento</h2>
+        <form id="formPagamento">
+            <label for="cartaoNumero">Número do Cartão:</label>
+            <input type="text" id="cartaoNumero" required>
+            <label for="cartaoNome">Nome no Cartão:</label>
+            <input type="text" id="cartaoNome" required>
+            <label for="cartaoValidade">Data de Validade:</label>
+            <input type="month" id="cartaoValidade" required>
+            <label for="cartaoCVV">CVV:</label>
+            <input type="text" id="cartaoCVV" required>
+            <button type="submit">Pagar</button>
+        </form>
+    </section>
+
+    <script src="produtos.js"></script>
+</body>
+</html>
