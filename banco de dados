@@ -1,0 +1,64 @@
+-- Criação da tabela de usuários
+CREATE TABLE Usuarios (
+    id_usuario INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(150) UNIQUE NOT NULL,
+    telefone VARCHAR(20),
+    data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Criação da tabela de eventos
+CREATE TABLE Eventos (
+    id_evento INT AUTO_INCREMENT PRIMARY KEY,
+    nome_evento VARCHAR(100) NOT NULL,
+    data_evento DATE NOT NULL,
+    localizacao VARCHAR(150),
+    descricao TEXT,
+    data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Criação da tabela de planos
+CREATE TABLE Planos (
+    id_plano INT AUTO_INCREMENT PRIMARY KEY,
+    nome_plano VARCHAR(100) NOT NULL,
+    preco DECIMAL(10, 2) NOT NULL,
+    descricao TEXT,
+    data_criacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Criação da tabela associativa para conectar usuários, eventos e planos
+CREATE TABLE Usuario_Evento_Plano (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_usuario INT NOT NULL,
+    id_evento INT NOT NULL,
+    id_plano INT NOT NULL,
+    data_adesao TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    status VARCHAR(50) DEFAULT 'Ativo',
+    FOREIGN KEY (id_usuario) REFERENCES Usuarios(id_usuario) ON DELETE CASCADE,
+    FOREIGN KEY (id_evento) REFERENCES Eventos(id_evento) ON DELETE CASCADE,
+    FOREIGN KEY (id_plano) REFERENCES Planos(id_plano) ON DELETE CASCADE
+);
+
+-- Inserção de usuários
+INSERT INTO Usuarios (nome, email, telefone) 
+VALUES 
+('Caio Silva', 'caio@email.com', '99999-1234'),
+('Joana Santos', 'joana@email.com', '98888-5678');
+
+-- Inserção de eventos
+INSERT INTO Eventos (nome_evento, data_evento, localizacao, descricao) 
+VALUES 
+('Tech Conference 2024', '2024-12-15', 'São Paulo', 'Evento de tecnologia para entusiastas e profissionais.'),
+('Startup Meetup', '2024-11-30', 'Rio de Janeiro', 'Encontro de empreendedores e investidores.');
+
+-- Inserção de planos
+INSERT INTO Planos (nome_plano, preco, descricao) 
+VALUES 
+('VIP', 300.00, 'Acesso completo com benefícios exclusivos.'),
+('Standard', 150.00, 'Acesso básico ao evento.');
+
+-- Relacionando usuários, eventos e planos
+INSERT INTO Usuario_Evento_Plano (id_usuario, id_evento, id_plano, status) 
+VALUES 
+(1, 1, 1, 'Confirmado'), -- Caio Silva no Tech Conference com plano VIP
+(2, 2, 2, 'Pendente');  -- Joana Santos no Startup Meetup com plano Standard
