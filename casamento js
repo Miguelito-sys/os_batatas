@@ -1,0 +1,10 @@
+const url = 'file:///C:/Users/lucas/Desktop/prova%20final/produtos.html'
+const button = document.querySelector('button')
+
+function openInNewTab(url) {
+    const nova = window.open(url,'_blank')
+    nova.focus()
+}
+button.addEventListener('click', ()=>{
+    openInNewTab(url)
+})
