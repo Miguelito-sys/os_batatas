@@ -36,14 +36,33 @@ porta.addEventListener('click', ()=>{
 
 
 
-const url = 'file:///C:/Users/lucas/Desktop/prova%20final/casamento.html'
-const sapo = document.querySelector('sapo')
+ function aniversario() {
+            // Redireciona para a outra página
+            window.location.href = "aniversario.html";
+        }
 
-function openInNewTab(url) {
-    const nova = window.open(url, '_blank')
-    nova.focus()
-}
 
-sapo.addEventListener('click', ()=>{
-    openInNewTab(url)
-});
+
+
+ function show() {
+            // Redireciona para a outra página
+            window.location.href = "show.html";
+        }
+
+
+
+
+
+ function casamento() {
+            // Redireciona para a outra página
+            window.location.href = "casamento.html";
+        }
+
+
+
+
+
+ function () {
+            // Redireciona para a outra página
+            window.location.href = "pagina2.html";
+        }
