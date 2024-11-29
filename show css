@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom,black, #E3D4FF,#B3D9FF);
+}
+.img{
+    display: inline;
+    width: 200PX;
+    height: 200PX;
+    border: none;
+    border-radius: 15%;
+    object-fit: cover;
+    background: linear-gradient(to bottom, black,#E3D4FF, #B3D9FF);
+
+}
+section{
+    border: none;
+    border-radius: 10%;
+    background: linear-gradient(to bottom, black, #E3D4FF,#B3D9FF);
+    text-align: center;
+    box: shadow: 10px;
+}
+section button{
+    width: 4cm;
+    height: 30px;
+    background:  linear-gradient(to bottom, black,#E3D4FF,#B3D9FF);
+    border: ridge color(srgb-linear  black, #E3D4FF);
+    border-radius: 10px;
+}
+section ul li{
+    list-style: none;
+    display: flex;
+}
+h1{
+    text-align: center;
+    border: none;
+    border-radius: 10%;
+    background: linear-gradient(to bottom, black,#E3D4FF, #B3D9FF);
+}
+header h1{
+    text-align: center;
+}
